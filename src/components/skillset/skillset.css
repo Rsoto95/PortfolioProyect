@@ -1,0 +1,11 @@
+.skillSetSection{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    width: 90%;
+}
+
+.skillSetSection h1{
+    margin-top: 0;
+}

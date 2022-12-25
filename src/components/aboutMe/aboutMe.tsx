@@ -3,7 +3,11 @@ import myImage from "./imagenDePerfil.jpg";
 
  const AboutMe = () => {
   return (
-    <section className="about-us">
+    <section className="whole-about-us">
+      <div className="about-us">
+
+
+
       <div className="image-side">
         <figure className="snip1113">
           <img
@@ -60,7 +64,15 @@ import myImage from "./imagenDePerfil.jpg";
           </div>
         </div>
         <button className="my-cv">My CV</button>
+      </div> 
+
+
+
+
       </div>
+
+
+     
     </section>
   );
 };
